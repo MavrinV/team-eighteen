@@ -4,20 +4,126 @@
     background-color: #0c0c0c;
 }
 
-.container-footer-logo {}
+@media only screen and (min-width: 768px) {
+    .container-footer {
+        padding: 40px 40px 28px 40px;
+    }
+}
 
 .footer-logo {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: -0.02em;
     color: #fbfbfb;
-    margin-bottom: 20px;
 }
 
-.footer-list-icons {}
+@media only screen and (min-width: 768px) {
+    .footer-logo {
+        font-size: 20px;
+    }
+}
 
-.footer-item-icons {}
+.footer-list-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
 
-.footer-link-icons {}
+.footer-item-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(251, 251, 251, 0.1);
+    border-radius: 10px;
+    /* max-width: 34px;
+    max-height: 34px; */
+}
 
-.footer-icons {}
+@media only screen and (min-width: 768px) {
+    .footer-item-icons {
+        max-width: 36px;
+        max-height: 36px;
+    }
+}
+
+.footer-link-icons {
+    display: inline-flex;
+    padding: 8px;
+}
+
+.footer-icons {
+    fill: #F3F3F3;
+    opacity: 0.8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-icons {
+        width: 20px;
+        height: 20px;
+        padding: 8px;
+    }
+}
+
+.footer-icons:hover,
+.footer-icons:focus {
+    fill: #fbfbfb;
+    opacity: 1;
+}
+
+.footer-tel-border {
+    display: inline-flex;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    /* width: 152px;
+    height: 44px; */
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-tel-border {
+        margin-top: 0;
+    }
+}
+
+.footer-tel {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fbfbfb;
+    padding: 14px 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-tel {
+        display: inline;
+        font-size: 14px;
+        line-height: 1.29;
+        height: auto;
+    }
+
+    .container-logo-list-tel {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 86px;
+    }
+}
+
+.container-footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    width: 279px;
+}
