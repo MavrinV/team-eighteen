@@ -1,0 +1,104 @@
+.contact-us-header {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+}
+
+.bgr-form-wrapper {
+    border-radius: 30px;
+    padding: 48px 28px;
+    width: 335px;
+    height: 512px;
+    background: #f3f3f3;
+}
+
+.form-description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+    margin-bottom: 28px;
+}
+
+.form-user-input {
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    min-width: 279px;
+    height: 42px;
+    padding: 12px 14px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
+    outline: transparent;
+}
+
+.form-user-input:focus {
+    border-color: 1px solid #3350e9;;
+}
+
+.form-user-label {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #0c0c0c;
+
+}
+.form-wrapper-container {
+    position:relative;
+    margin-bottom: 18px;
+}
+
+.form-comment {
+    resize: none;
+    width: 100%;
+    height: 84px;
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    padding: 12px 14px;
+    height: 42px;
+    background-color: transparent;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-comment:focus {
+    border-color: 1px solid #3350e9; 
+}
+
+.form-comment::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #0c0c0c;
+}
+
+.button-form-contact {
+    display: block;
+    border-radius: 16px;
+    padding: 12px 50px;
+    min-width: 134px;
+    height: 42px;
+    background-color: #3350e9;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #fbfbfb;
+    position: absolute;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-form-contact:hover,
+.button-form-contact:focus {
+    background-color:#1f3cd4;
+ }
