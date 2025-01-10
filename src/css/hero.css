@@ -1,0 +1,134 @@
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .container {
+        max-width: 1150px;
+        padding: 0 65px;
+    }
+}
+
+.welcome-section {
+    padding-top: 60px;
+    margin-bottom: 100px;
+}
+
+@media screen and (min-width: 768px) {
+    .welcome-section {
+        padding-top: 80px;
+    }
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title-container {
+    width: 335px;
+    padding-bottom: 28px;
+}
+
+@media screen and (min-width: 768px) {
+    .title-container {
+        width: 557px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .title-container {
+        width: 597px;
+        padding-bottom: 40px;
+    }
+}
+
+.welcome-title {
+    width: 335px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .welcome-title {
+        width: 557px;
+        font-size: 70px;
+        line-height: 0.85;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .welcome-title {
+        width: 597px;
+        font-size: 72px;
+    }
+}
+
+.span {
+    color: #3350e9;
+}
+
+.welcome-description {
+    max-width: 335px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+}
+
+@media screen and (min-width: 768px) {
+    .welcome-description {
+        max-width: 480px;
+    }
+}
+
+.svg-icon {
+    width: 108px;
+    height: 44px;
+}
+
+.scroll {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 335px;
+    padding-bottom: 28px;
+}
+
+@media screen and (min-width: 768px) {
+    .scroll {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-direction: column;
+
+        width: 136px;
+
+    }
+}
+
+.scroll-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #0c0c0c;
+}
