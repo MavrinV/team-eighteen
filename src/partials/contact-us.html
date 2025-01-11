@@ -1,6 +1,7 @@
 <section class="contact-us">
-  <div class="container contact-us-container">
+  <div class="container">
     <h2 class="contact-us-header">Contact Us</h2>
+    <div class="contact-us-container">
     <div class="bgr-form-wrapper">
     <p class="form-description">
       Please use the form below to contact us. Enter your name, email, phone,
@@ -8,7 +9,7 @@
     </p>
     <form>
       <div class="form-wrapper-container">
-        <label for="user-name" class="form-user-label"></label>
+        <label for="user-name" class="form-user-label">Name</label>
           <input
             type="text"
             class="form-user-input"
@@ -19,7 +20,7 @@
           />
       </div>      
       <div class="form-wrapper-container">
-        <label for="form-email" class="form-user-label"></label>
+        <label for="form-email" class="form-user-label">Email</label>
           <input
             type="email"
             class="form-user-input"
@@ -31,7 +32,7 @@
           />
       </div>
       <div class="form-wrapper-container">
-        <label for="form-phone" class="form-user-label"></label>
+        <label for="form-phone" class="form-user-label">Phone</label>
           <input
             type="tel"
             class="form-user-input"
@@ -51,13 +52,13 @@
       </div>
       <button class="button-form-contact" type="submit">Send</button>
       </div>
-      </div>
     </form>
-     <picture class="watch-contact-us">
-  <source media="(max-width: 767px)" srcset="img/contact-us/contact-us-mob.webp 1x, img/contact-us/contact-us-mob@2x.webp 2x">
-  <source media="(min-width: 768px)" srcset="img/contact-us/contact-us-mob.webp 1x, img/contact-us/contact-us@2x.webp 2x">
-  <source media="(min-width: 1268px)" srcset="img/contact-us/contact-us-mob.webp 1x, img/contact-us/contact-us@2x.webp 2x">
-  <img src="img/contact-us/contact-us-mob.webp" alt="Image description">
-</picture>    
+     <picture>
+      <source media="(max-width: 767px)" srcset="img/contact-us/contact-us-mob.png 1x, img/contact-us/contact-us-mob@2x.png 2x">
+      <source media="(min-width: 768px)" srcset="img/contact-us/contact-us-tab.png 1x, img/contact-us/contact-us-tab@2x.png 2x">
+      <source media="(min-width: 1268px)" srcset="img/contact-us/contact-us.png 1x, img/contact-us/contact-us@2x.png 2x">
+      <img class="watch-contact-us" src="img/contact-us/contact-us.png" alt="Wristwatch on a rock surface">
+    </picture>
   </div>
+</div>
 </section>

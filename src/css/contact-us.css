@@ -43,7 +43,14 @@
 .form-user-input:focus {
     border: 1px solid #3350e9;;
 }
-
+.form-user-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+}
 .form-user-input::placeholder {
     display: block;
     position: absolute;
@@ -154,8 +161,8 @@
     margin-bottom: 50px;
  }
 .watch-contact-us{
- width: 704px;
- height: 556px;
+    width: 704px;
+    height: 556px;
  }
 }
 
@@ -166,7 +173,7 @@
 }
 
 .bgr-form-wrapper {
-   width: 580px;
+    min-width: 580px;
     height: 556px;
     padding: 50px 60px;
 }
@@ -185,6 +192,17 @@
 
 .button-form-contact {
     margin-bottom: 50px;
+}
+.watch-contact-us {
+    object-fit: cover;
+}
+
+.contact-us-container{
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 
 }
