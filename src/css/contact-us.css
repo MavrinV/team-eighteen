@@ -1,3 +1,7 @@
+.contact-us {
+    padding-bottom: 60px;
+}
+
 .contact-us-header {
     font-weight: 600;
     font-size: 32px;
@@ -13,6 +17,7 @@
     min-width: 335px;
     height: 512px;
     background: #f3f3f3;
+    margin-bottom: 20px;
 }
 
 .form-description {
@@ -107,14 +112,26 @@
 .button-form-contact:hover,
 .button-form-contact:focus {
     background-color:#1f3cd4;
- }
+}
 
+.watch-contact-us {
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 335px;
+    height: 512px;
+}
 
  @media (min-width: 768px) {
-    .bgr-form-wrapper{
+
+.contact-us{
+    padding-bottom: 80px;
+}
+ .bgr-form-wrapper{
     min-width: 704px;
     height: 556px;   
     padding: 50px 122px;
+    margin-bottom: 40px;
  }
 
 .contact-us-header {
@@ -136,10 +153,18 @@
  .form-wrapper-container-comment {
     margin-bottom: 50px;
  }
+.watch-contact-us{
+ width: 704px;
+ height: 556px;
  }
+}
 
 
 @media (min-width: 1280px) {
+.contact-us {
+    padding-bottom: 100px;
+}
+
 .bgr-form-wrapper {
    width: 580px;
     height: 556px;
