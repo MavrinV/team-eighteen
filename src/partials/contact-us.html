@@ -1,5 +1,5 @@
 <section class="contact-us">
-  <div class="container">
+  <div class="container contact-us-container">
     <h2 class="contact-us-header">Contact Us</h2>
     <div class="bgr-form-wrapper">
     <p class="form-description">
@@ -39,13 +39,13 @@
             required
           />
         </div>
-      <div class="form-wrapper-container ">
+      <div class="form-wrapper-container-comment">
         <label class="form-user-label" for="user-comment">Comment </label>
         <textarea
           class="form-comment"
           id="user-comment"
           name="user-comment"
-          placeholder="Text input"
+          placeholder="Comment"
         >
         </textarea>
       </div>
@@ -53,5 +53,31 @@
       </div>
       </div>
     </form>
+      <picture>
+          <source
+                    srcset="
+                      ./src/partials/contact-us.html
+                      ./src/img/contact-us/contact-us.webp
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ../img/contact-us/watchtab.1x.jpg. 1x,
+                      ../img/contact-us/watchtab.2x.jpg.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                       ../img/sale/img-mobile1.webp    1x,
+                      ../img/sale/img-mobile1@2x.webp 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img src="../img/contact-us/contact-us.webp" alt="watch"/>
+</picture>
+                   <img src="../src/img/contact-us/contact-us.webp" alt="watch"/>
+                
   </div>
 </section>

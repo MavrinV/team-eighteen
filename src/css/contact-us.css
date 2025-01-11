@@ -10,7 +10,7 @@
 .bgr-form-wrapper {
     border-radius: 30px;
     padding: 48px 28px;
-    width: 335px;
+    min-width: 335px;
     height: 512px;
     background: #f3f3f3;
 }
@@ -27,7 +27,7 @@
 .form-user-input {
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
-    min-width: 279px;
+    width: 100%;
     height: 42px;
     padding: 12px 14px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -54,8 +54,13 @@
 .form-wrapper-container {
     position:relative;
     margin-bottom: 18px;
+    width: 100%;
 }
-
+.form-wrapper-container-comment{
+    position: relative;
+    margin-bottom: 28px;
+    width: 100%;
+}
 .form-comment {
     resize: none;
     width: 100%;
@@ -63,7 +68,8 @@
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
     padding: 12px 14px;
-    height: 42px;
+    min-width: 279px;
+    height: 84px;
     background-color: transparent;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -102,3 +108,47 @@
 .button-form-contact:focus {
     background-color:#1f3cd4;
  }
+
+
+ @media (min-width: 768px) {
+    .bgr-form-wrapper{
+    min-width: 704px;
+    height: 556px;   
+    padding: 50px 122px;
+
+ }
+
+ .form-user-input {
+
+    height: 52px;
+ }
+
+ .form-wrapper-container-comment {
+    margin-bottom: 50px;
+ }
+ }
+
+@media (min-width: 1280px) {
+.bgr-form-wrapper {
+   width: 580px;
+    height: 556px;
+    padding: 50px 60px;
+}
+
+.form-comment {
+    height: 90px;
+}
+
+.form-user-input {
+    height: 52px;
+}
+
+.form-wrapper-container-comment {
+    margin-bottom: 32px;
+}
+
+.button-form-contact {
+    margin-bottom: 50px;
+}
+
+}
