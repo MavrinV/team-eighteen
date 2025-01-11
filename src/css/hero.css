@@ -1,27 +1,26 @@
 
 
-.welcome-section {
+.hero{
     padding-top: 60px;
     margin-bottom: 100px;
 }
 
 @media screen and (min-width: 768px) {
-    .welcome-section {
+    .hero {
         padding-top: 80px;
+        margin-bottom: 80px;
     }
 }
 
 .welcome-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 28px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 28px;
 }
 
 @media screen and (min-width: 768px) {
 .welcome-container {
-    display: flex;
-    justify-content: space-between;
     flex-wrap: nowrap;
     }
 }
@@ -110,9 +109,7 @@
         display: flex;
         align-items: flex-end;
         flex-direction: column;
-
-        width: 136px;
-
+        /* width: 136px; */
     }
 }
 
@@ -124,6 +121,11 @@
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #0c0c0c;
+}
+
+.scroll-link:hover,
+.scroll-link:focus {
+    color: #3350e9;
 }
 
 @media screen and (min-width: 768px) {
