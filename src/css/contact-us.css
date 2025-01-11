@@ -36,10 +36,10 @@
 }
 
 .form-user-input:focus {
-    border-color: 1px solid #3350e9;;
+    border: 1px solid #3350e9;;
 }
 
-.form-user-label {
+.form-user-input::placeholder {
     display: block;
     position: absolute;
     top: 50%;
@@ -76,7 +76,7 @@
 }
 
 .form-comment:focus {
-    border-color: 1px solid #3350e9; 
+    border: 1px solid #3350e9; 
 }
 
 .form-comment::placeholder {
@@ -115,18 +115,29 @@
     min-width: 704px;
     height: 556px;   
     padding: 50px 122px;
-
  }
+
+.contact-us-header {
+    font-size: 48px;
+}
+
+.form-description {
+    font-size: 14px;
+}
 
  .form-user-input {
-
     height: 52px;
  }
+
+.form-user-input::placeholder, .form-comment::placeholder {
+    font-size: 16px;
+}
 
  .form-wrapper-container-comment {
     margin-bottom: 50px;
  }
  }
+
 
 @media (min-width: 1280px) {
 .bgr-form-wrapper {

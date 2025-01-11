@@ -8,46 +8,46 @@
     </p>
     <form>
       <div class="form-wrapper-container">
-        <label for="user-name" class="form-user-label">Name</label>
+        <label for="user-name" class="form-user-label"></label>
           <input
             type="text"
             class="form-user-input"
             id="user-name"
             name="user-name"
+            placeholder="Name"
             required
           />
       </div>      
       <div class="form-wrapper-container">
-        <label for="form-email" class="form-user-label">Email</label>
+        <label for="form-email" class="form-user-label"></label>
           <input
             type="email"
             class="form-user-input"
             id="form-email"
             name="form-email"
             pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,})+\.([A-z]{2,8})"
+            placeholder="Email"
             required
           />
       </div>
       <div class="form-wrapper-container">
-        <label for="form-phone" class="form-user-label">+380</label>
+        <label for="form-phone" class="form-user-label"></label>
           <input
             type="tel"
             class="form-user-input"
             id="form-phone"
             name="form-phone"
             pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+            placeholder="+380"
             required
           />
         </div>
-      <div class="form-wrapper-container-comment">
-        <label class="form-user-label" for="user-comment">Comment </label>
-        <textarea
-          class="form-comment"
+      <div class="form-wrapper-container-comment"><label class="form-user-label" for="user-comment"></label>
+        <textarea class="form-comment"
           id="user-comment"
           name="user-comment"
           placeholder="Comment"
-        >
-        </textarea>
+        ></textarea>
       </div>
       <button class="button-form-contact" type="submit">Send</button>
       </div>
