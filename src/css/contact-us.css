@@ -1,5 +1,5 @@
 .contact-us {
-    padding-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .contact-us-header {
@@ -11,13 +11,42 @@
     margin-bottom: 24px;
 }
 
+.contact-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.bgr-form-wrapper {
+    border-radius: 30px;
+    padding: 48px 28px;
+    background: #f3f3f3;
+}
+
 .form-description {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
     margin-bottom: 28px;
+}
+
+.form-wrapper-container {
+    position: relative;
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+.form-user-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
 }
 
 .form-user-input {
@@ -33,16 +62,6 @@
 
 .form-user-input:focus {
     border: 1px solid #3350e9;
-    ;
-}
-
-.form-user-label {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
 }
 
 .form-user-input::placeholder {
@@ -53,15 +72,9 @@
     transform: translateY(-50%);
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.29;
     color: #0c0c0c;
 
-}
-
-.form-wrapper-container {
-    position: relative;
-    margin-bottom: 18px;
-    width: 100%;
 }
 
 .form-wrapper-container-comment {
@@ -91,7 +104,7 @@
 .form-comment::placeholder {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.29;
     color: #0c0c0c;
 }
 
@@ -105,10 +118,9 @@
     border: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.29;
     text-align: center;
     color: #fbfbfb;
-    margin-bottom: 48px;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -118,43 +130,28 @@
     background-color: #1f3cd4;
 }
 
-.contact-us-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    width: 375px;
-    height: 1100px;
-}
-
-.bgr-form-wrapper {
-    border-radius: 30px;
-    padding: 48px 28px;
-    width: 335px;
-    height: 512px;
-    background: #f3f3f3;
-}
-
-.watch-contact-us img {
-    display: block;
-    border-radius: 30px;
-    width: 335px;
-    height: 512px;
-    object-fit: cover;
-}
-
 @media (min-width: 768px) {
-
     .contact-us {
-        padding-bottom: 80px;
+        margin-bottom: 60px;
     }
 
     .contact-us-header {
         font-size: 48px;
     }
 
+    .contact-us-container {
+        gap: 40px;
+    }
+
+    .bgr-form-wrapper {
+        padding: 50px 122px;
+        border-radius: 50px;
+    }
+
     .form-description {
-        font-size: 14px;
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 32px;
     }
 
     .form-user-input {
@@ -164,81 +161,42 @@
     .form-user-input::placeholder,
     .form-comment::placeholder {
         font-size: 16px;
-    }
-
-    .button-form-contact {
-        margin-bottom: 50px;
+        line-height: 1.25;
     }
 
     .form-wrapper-container-comment {
         margin-bottom: 50px;
-    }
-
-
-    .bgr-form-wrapper {
-        min-width: 704px;
-        height: 556px;
-        padding: 50px 122px;
-        margin-bottom: 40px;
-        border-radius: 50px;
-    }
-
-    .contact-us-container {
-        width: 704px;
-        height: 1236px;
-
-    }
-
-    .watch-contact-us {
-        width: 704px;
-        height: 556px;
-        border-radius: 50px;
-    }
-}
-
-
-@media (min-width: 1280px) {
-    .contact-us {
-        padding-bottom: 100px;
-    }
-
-    .bgr-form-wrapper {
-        max-width: 580px;
-        height: auto;
-        padding: 50px 60px;
     }
 
     .form-comment {
         height: 90px;
     }
 
-    .form-user-input {
+    .button-form-contact {
+        min-width: 160px;
         height: 52px;
+    }
+
+    .watch-contact-us {
+        border-radius: 50px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .contact-us {
+        margin-bottom: 100px;
+    }
+
+    .contact-us-container {
+        flex-direction: row;
+    }
+
+    .bgr-form-wrapper {
+        width: 580px;
+        padding: 50px 60px;
     }
 
     .form-wrapper-container-comment {
         margin-bottom: 32px;
     }
-
-    .button-form-contact {
-        margin-bottom: 50px;
-    }
-
-    .watch-contact-us {
-        object-fit: cover;
-        width: 530px;
-        height: auto;
-        max-height: 556px;
-    }
-
-    .contact-us-container {
-        display: flex;
-        gap: 40px;
-        align-items: flex-start;
-        justify-content: center;
-        flex-wrap: nowrap;
-        height: 556px;
-
-    }
-
 }
