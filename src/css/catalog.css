@@ -277,4 +277,21 @@
   .description-catalog {
       width: 304px;
    }
+
+   .wrapper-img {
+    width: 279px;
+    height: 262px;
+    padding: 18px 35px;
+
+    position: relative;
+  }
+
+  .wrapper-img img {
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+  }
+
+  .wrapper-img:hover img {
+    transform: scale(2);
+  }
 }
