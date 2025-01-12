@@ -1,3 +1,87 @@
-<section class="contact-us">
-    <div class="container"></div>
+<section class="contact-us" id="contact-us">
+  <div class="container">
+    <h2 class="contact-us-header">Contact Us</h2>
+    <div class="contact-us-container">
+      <div class="bgr-form-wrapper">
+        <p class="form-description">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form>
+          <div class="form-wrapper-container">
+            <label for="user-name" class="form-user-label">Name</label>
+            <input
+              type="text"
+              class="form-user-input"
+              id="user-name"
+              name="user-name"
+              placeholder="Name"
+              required
+            />
+          </div>
+          <div class="form-wrapper-container">
+            <label for="form-email" class="form-user-label">Email</label>
+            <input
+              type="email"
+              class="form-user-input"
+              id="form-email"
+              name="form-email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,})+\.([A-z]{2,8})"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="form-wrapper-container">
+            <label for="form-phone" class="form-user-label">Phone</label>
+            <input
+              type="tel"
+              class="form-user-input"
+              id="form-phone"
+              name="form-phone"
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              placeholder="+380"
+              required
+            />
+          </div>
+          <div class="form-wrapper-container-comment">
+            <label class="form-user-label" for="user-comment"></label>
+            <textarea
+              class="form-comment"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+          <button class="button-form-contact" type="submit">Send</button>
+        </form>
+        <picture class="watch-contact-us">
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              img/contact-us/contact-us-mob.png    1x,
+              img/contact-us/contact-us-mob@2x.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              img/contact-us/contact-us-tab.png    1x,
+              img/contact-us/contact-us-tab@2x.png 2x
+            "
+          />
+          <source
+            media="(min-width: 1268px)"
+            srcset="
+              img/contact-us/contact-us.png    1x,
+              img/contact-us/contact-us@2x.png 2x
+            "
+          />
+          <img
+            src="img/contact-us/contact-us.png"
+            alt="Wristwatch on a rock surface"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
 </section>
