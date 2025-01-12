@@ -14,20 +14,45 @@
 
 .welcome-container {
 display: flex;
-justify-content: space-between;
 flex-wrap: wrap;
 gap: 28px;
 }
 
 @media screen and (min-width: 768px) {
 .welcome-container {
-    flex-wrap: nowrap;
+        gap: 40px;
+    }
+}
+
+.first-title-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+}
+
+@media screen and (min-width: 768px) {
+.first-title-container {
+flex-wrap: nowrap;
+justify-content: space-between;
+gap: normal;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+.first-title-container {
+    gap: 407px;
+
     }
 }
 
 .title-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     width: 335px;
 }
+
+
 
 @media screen and (min-width: 768px) {
     .title-container {
@@ -47,7 +72,6 @@ gap: 28px;
     font-size: 40px;
     line-height: 0.95;
     letter-spacing: -0.02em;
-    padding-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -58,7 +82,7 @@ gap: 28px;
     }
 }
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1280px) {
     .welcome-title {
         width: 597px;
         font-size: 72px;
@@ -106,6 +130,7 @@ gap: 28px;
 
 @media screen and (min-width: 768px) {
     .scroll {
+        width: 136px;
         display: flex;
         align-items: flex-end;
         flex-direction: column;
