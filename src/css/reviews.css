@@ -6,6 +6,17 @@ ol {
     margin-bottom: 0;
 }
 
+.reviews {
+    margin-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+    .reviews {
+       margin-bottom: 100px;
+    }
+}
+
+
 .title-reviews {
     font-family: "Gilroy", sans-serif;
     margin-bottom: 24px;
