@@ -1,4 +1,3 @@
-
 /* #region Mobile */
 
 .container-footer {
@@ -245,6 +244,7 @@
 
     .container-footer {
         position: relative;
+        max-width: 1216px;
     }
 
     .container-footer-text {
@@ -259,4 +259,5 @@
     }
 }
 
+/* #endregion */
 
