@@ -5,7 +5,9 @@
 }
 
 .container-header {
-    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-logo {
@@ -24,6 +26,20 @@
     display: none;
 }
 
+.menu-button {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    
+}
+
+.menu-button-icon {
+    display: block;
+}
+
 /* #endregion */
 
 /* #region Tablet header */
@@ -32,6 +48,11 @@
     .header-logo {
         font-size: 20px;
         padding: 26px 0;
+    }
+
+    .menu-button-icon {
+        width: 40px;
+        height: 40px;
     }
 }
 
@@ -42,8 +63,6 @@
 @media screen and (min-width: 1280px) {
     .container-header {
         padding: 0 65px;
-        display: flex;
-        justify-content: space-between;
     }
 
     .header-nav {
@@ -61,7 +80,7 @@
     .header-nav-list-item {
         font-weight: 500;
         font-size: 14px;
-        line-height: 1.28571;
+        line-height: 1.29;
         text-align: center;
         color: #0c0c0c;
     }
@@ -140,6 +159,10 @@
     .header-list-icons-link:focus .header-icons {
         fill: #3350E9;
     }
+
+        .menu-button {
+            display: none;
+        }
 }
 
 /* #endregion */
