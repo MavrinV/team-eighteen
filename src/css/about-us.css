@@ -97,7 +97,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 /* Styles for Tablet devices */
 
 @media only screen and (min-width: 768px) {
-
+  .about-us{
+    margin-bottom: 80px;
+  }
   .about-us-container {gap: 40px;}
    .title-block {padding: 80px 60px; }
    
@@ -118,7 +120,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
        /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) 
 
-{.about-us-container 
+{.about-us{
+  margin-bottom: 100px;
+}
+  .about-us-container 
   {flex-direction: row; }
 
 .title-block 
