@@ -15,12 +15,6 @@
     pointer-events: none;
 }
 
-@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
-    .hero {
-        background-image: url(../img/mobile-menu/menu@2x.jpg);
-    }
-}
-
 .mobile-menu.is-open {
     opacity: 1;
     visibility: visible;
