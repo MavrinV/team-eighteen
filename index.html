@@ -13,7 +13,7 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/team-eighteen/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/team-eighteen/assets/index-CXyAcusB.css">
+    <link rel="stylesheet" crossorigin href="/team-eighteen/assets/index-RV0lQ3Hj.css">
   </head>
 
   <body>
@@ -89,8 +89,41 @@
 
     <main>
       <!-- Loads the specified .html file -->
-      <section class="hero">
-
+      <section class="hero" id="hero">
+  <div class="container welcome-container">
+    <div class="first-title-container">
+      <div class="title-container">
+        <h1 class="welcome-title">
+          Welcome to our
+          <span class="span">collection</span>
+          of premium watches
+        </h1>
+        <p class="welcome-description">
+          Our watches are not just timepieces, but also an expression of your
+          personality and lifestyle. From classic designs to modern ones, we
+          have a watch to suit every taste and occasion.
+        </p>
+      </div>
+      <div class="scroll">
+        <svg class="svg-icon">
+          <use href="../img/photo.svg#photo"></use>
+        </svg>
+        <a class="scroll-link" href="#">Scroll down</a>
+      </div>
+    </div>
+    <picture>
+            <source media="(min-width: 1280px)" srcset="../img/hero-img/hero-img.webp 1x, ../img/hero-img/hero-img@2x.webp 2x" />
+      <source
+        media="(min-width: 768px)"
+        srcset="../img/hero-img/hero-tab.webp 1x, ../img/hero-img/hero-tab@2x.webp 2x"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="../img/hero-img/hero-mobile.webp 1x, ../img/hero-img/hero-mobile@2x.webp 2x"
+      />
+      <img src="../img/heo-img/hero-mobile.webp" alt="watch-hero" />
+    </picture>
+  </div>
 </section>
 
       <section class="about-us">
