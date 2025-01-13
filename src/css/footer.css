@@ -2,6 +2,7 @@
 
 .container-footer {
     max-width: 335px;
+    max-height: 581px;
     border-radius: 30px;
     padding: 40px 28px 28px 28px;
     background-color: #0c0c0c;
@@ -114,7 +115,6 @@
 
 .container-footer-text-privacy {
     margin-top: 24px;
-    margin-bottom: 8px
 }
 
 .footer-text-privacy {
@@ -147,6 +147,7 @@
 @media only screen and (min-width: 768px) {
     .container-footer {
         max-width: 704px;
+        max-height: 540px;
         padding: 40px 40px 28px 40px;
     }
 
@@ -248,6 +249,7 @@
     .container-footer {
         position: relative;
         max-width: 1216px;
+        
     }
 
     .container-footer-text {
