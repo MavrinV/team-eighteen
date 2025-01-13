@@ -63,8 +63,7 @@
   gap: 9px;
   margin-bottom: 28px;
 }
-.watch-price-item {
-}
+
 .watch-price-item.first {
   padding: 8px 12px;
   border-radius: 8px;
@@ -195,7 +194,7 @@
 /* #region Styles for Desktop devices */
 @media screen and (min-width: 1280px) {
   .sale {
-    margin-bottom: 60px;
+    margin-bottom: 100px;
   }
 
   .sale-content {
