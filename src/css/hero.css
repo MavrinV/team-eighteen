@@ -2,13 +2,19 @@
 
 .hero{
     padding-top: 60px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
     .hero {
         padding-top: 80px;
         margin-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero{
+        margin-bottom: 100px;
     }
 }
 
@@ -41,7 +47,6 @@ gap: normal;
 @media screen and (min-width: 1280px) {
 .first-title-container {
     gap: 407px;
-
     }
 }
 
@@ -78,7 +83,7 @@ gap: normal;
     .welcome-title {
         width: 557px;
         font-size: 70px;
-        line-height: 0.85;
+        line-height: 0.86;
     }
 }
 
@@ -86,6 +91,7 @@ gap: normal;
     .welcome-title {
         width: 597px;
         font-size: 72px;
+        line-height: 0.87;
     }
 }
 
@@ -96,8 +102,8 @@ gap: normal;
 .welcome-description {
     max-width: 335px;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.25;
+    font-size: 14px;
+    line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
 }
