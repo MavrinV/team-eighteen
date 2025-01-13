@@ -1,6 +1,7 @@
 /* #region Mobile */
 
 .container-footer {
+    max-width: 335px;
     border-radius: 30px;
     padding: 40px 28px 28px 28px;
     background-color: #0c0c0c;
@@ -145,6 +146,7 @@
 
 @media only screen and (min-width: 768px) {
     .container-footer {
+        max-width: 704px;
         padding: 40px 40px 28px 40px;
     }
 
@@ -233,6 +235,7 @@
 /* #region Desktop */
 
 @media only screen and (min-width: 1280px) {
+
     .footer-text {
         max-width: 523px;
     }
@@ -244,6 +247,7 @@
 
     .container-footer {
         position: relative;
+        max-width: 1216px;
     }
 
     .container-footer-text {
@@ -259,3 +263,4 @@
 }
 
 /* #endregion */
+
