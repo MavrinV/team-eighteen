@@ -134,6 +134,10 @@
       line-height: 1.25;
       letter-spacing: -0.02em;
       color: #0c0c0c;
+      white-space: nowrap;     
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
 
     }
 
@@ -239,6 +243,6 @@
     }
 
     .wrapper-img:hover img {
-      transform: scale(2);
+      transform: scale(1.4);
     }
   }
