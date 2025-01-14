@@ -139,7 +139,6 @@
   .catalog-list {
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 16px;
       column-gap: 16px;
       row-gap: 32px;
   }
