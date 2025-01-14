@@ -14,15 +14,6 @@
 
   }
 
-  @media only screen and (max-width: 768px) {
-    .catalog {
-      width: 100%;
-    }
-
-
-  }
-
-
 @media only screen and (min-width: 768px) {
   .catalog {
       width: 100%;
@@ -184,9 +175,6 @@
 
   .catalog-list {
       flex-wrap: wrap;
-      flex-direction: row;
-      gap: 16px;
-
       column-gap: 16px;
       row-gap: 32px;
   }
