@@ -1,6 +1,5 @@
 .contact-us {
     margin-bottom: 60px;
-    margin-bottom: 60px;
 }
 
 .contact-us-header {
@@ -45,7 +44,6 @@
 .form-description {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.29;
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
@@ -108,7 +106,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
-    line-height: 1.29;
     color: #0c0c0c;
 }
 
@@ -141,7 +138,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
-    line-height: 1.29;
     color: #0c0c0c;
 }
 
@@ -156,7 +152,6 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
-    line-height: 1.29;
     text-align: center;
     color: #fbfbfb;
     cursor: pointer;
@@ -170,7 +165,6 @@
 
 @media (min-width: 768px) {
     .contact-us {
-        margin-bottom: 60px;
         margin-bottom: 60px;
     }
 
@@ -213,11 +207,10 @@
     .form-comment::placeholder {
         font-size: 16px;
         line-height: 1.25;
-        line-height: 1.25;
     }
 
     .form-wrapper-container-comment {
-        margin-bottom: 50px;
+        margin-bottom: 32px;
         height: 90px;
 
     }
@@ -229,6 +222,8 @@
     .button-form-contact {
         min-width: 160px;
         height: 52px;
+    }
+
     .button-form-contact {
         min-width: 160px;
         height: 52px;
@@ -255,7 +250,6 @@
 
     .bgr-form-wrapper {
         width: 580px;
-        width: 580px;
         padding: 50px 60px;
     }
 
@@ -264,4 +258,3 @@
     }
 }
 
-}
