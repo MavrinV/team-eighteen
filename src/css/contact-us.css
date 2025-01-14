@@ -26,6 +26,21 @@
     background: #f3f3f3;
 }
 
+
+.contact-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.bgr-form-wrapper {
+    border-radius: 30px;
+    padding: 48px 28px;
+    background: #f3f3f3;
+}
+
 .form-description {
     font-weight: 500;
     font-size: 14px;
@@ -33,6 +48,22 @@
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
     margin-bottom: 28px;
+}
+
+
+.form-wrapper-container {
+    position: relative;
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+.form-user-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
 }
 
 
@@ -81,6 +112,7 @@
 .form-wrapper-container-comment {
     position: relative;
     margin-bottom: 28px;
+    height: 84px;
     width: 100%;
 }
 
@@ -149,7 +181,19 @@
         border-radius: 50px;
     }
 
+    .contact-us-container {
+        gap: 40px;
+    }
+
+    .bgr-form-wrapper {
+        padding: 50px 122px;
+        border-radius: 50px;
+    }
+
     .form-description {
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 32px;
         font-size: 16px;
         line-height: 1.25;
         margin-bottom: 32px;
@@ -166,11 +210,18 @@
     }
 
     .form-wrapper-container-comment {
-        margin-bottom: 50px;
+        margin-bottom: 32px;
+        height: 90px;
+
     }
 
     .form-comment {
         height: 90px;
+    }
+
+    .button-form-contact {
+        min-width: 160px;
+        height: 52px;
     }
 
     .button-form-contact {
@@ -190,6 +241,11 @@
 
     .contact-us-container {
         flex-direction: row;
+        margin-bottom: 100px;
+    }
+
+    .contact-us-container {
+        flex-direction: row;
     }
 
     .bgr-form-wrapper {
@@ -201,3 +257,4 @@
         margin-bottom: 32px;
     }
 }
+
