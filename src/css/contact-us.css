@@ -81,6 +81,7 @@
 .form-wrapper-container-comment {
     position: relative;
     margin-bottom: 28px;
+    height: 84px;
     width: 100%;
 }
 
@@ -167,6 +168,8 @@
 
     .form-wrapper-container-comment {
         margin-bottom: 50px;
+        height: 90px;
+
     }
 
     .form-comment {
