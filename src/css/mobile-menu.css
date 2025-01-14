@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 200px;
+    width: 50%;
     height: 100%;
     background-image: url(../img/mobile-menu/menu.jpg);
     background-color: rgba(12, 12, 12, 0.92);
@@ -113,7 +113,7 @@
 
 @media screen and (min-width: 768px) {
     .mobile-menu {
-        width: 330px;
+        width: 50%;
         background-image: url(../img/mobile-menu/menu-tablet.jpg);
     }
     .cont-menu {
