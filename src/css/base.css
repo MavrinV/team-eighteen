@@ -23,7 +23,7 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: "Gilroy", sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 main {
