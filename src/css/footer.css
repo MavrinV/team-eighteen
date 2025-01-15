@@ -101,10 +101,6 @@
     max-width: 147px;
 }
 
-.footer-list-item {
-    min-width: calc((100% - 80px) / 6);
-}
-
 .footer-address {
     font-weight: 500;
     font-size: 12px;
