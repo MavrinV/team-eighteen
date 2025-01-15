@@ -23,7 +23,11 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: "Gilroy", sans-serif;
+<<<<<<< HEAD
   overflow: hidden;
+=======
+  overflow-x: hidden;
+>>>>>>> main
 }
 
 main {
@@ -31,4 +35,8 @@ main {
 }
 main:has(.back-link) {
   text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
 }
