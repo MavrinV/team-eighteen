@@ -2,11 +2,7 @@
 
 .hero{
     padding-top: 60px;
-<<<<<<< HEAD
-    margin-bottom: 100px;
-=======
     margin-bottom: 60px;
->>>>>>> main
 }
 
 @media screen and (min-width: 768px) {
@@ -16,15 +12,12 @@
     }
 }
 
-<<<<<<< HEAD
-=======
 @media screen and (min-width: 1280px) {
     .hero{
         margin-bottom: 100px;
     }
 }
 
->>>>>>> main
 .welcome-container {
 display: flex;
 flex-wrap: wrap;
@@ -54,10 +47,6 @@ gap: normal;
 @media screen and (min-width: 1280px) {
 .first-title-container {
     gap: 407px;
-<<<<<<< HEAD
-
-=======
->>>>>>> main
     }
 }
 
@@ -94,11 +83,7 @@ gap: normal;
     .welcome-title {
         width: 557px;
         font-size: 70px;
-<<<<<<< HEAD
-        line-height: 0.85;
-=======
         line-height: 0.86;
->>>>>>> main
     }
 }
 
@@ -106,10 +91,7 @@ gap: normal;
     .welcome-title {
         width: 597px;
         font-size: 72px;
-<<<<<<< HEAD
-=======
         line-height: 0.87;
->>>>>>> main
     }
 }
 
@@ -120,13 +102,8 @@ gap: normal;
 .welcome-description {
     max-width: 335px;
     font-weight: 500;
-<<<<<<< HEAD
-    font-size: 16px;
-    line-height: 1.25;
-=======
     font-size: 14px;
     line-height: 1.29;
->>>>>>> main
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
 }
